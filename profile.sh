@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# a script to more easily switch between aws profiles on the cli
+# combine with bash_profile in this repository to make life less dumb
+
 PROFILE=$1
 
 if [ -z $PROFILE ]; then
